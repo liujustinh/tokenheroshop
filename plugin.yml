@@ -1,0 +1,21 @@
+main: me.iamajiu.herotokenshop.Main
+name: HeroTokenShop
+version: 1.0
+author: iAmAJiu
+description: Shop for Hero server. 
+commands:
+  token:
+    usage: /token
+    permission: token.Default
+  balance:
+    usage: /balance
+    permission: token.Default
+  give: 
+    usage: /give [Player Name] [Amount] 
+    permission: token.Default
+  send: 
+    usage: /send [Player Name] [Amount]
+    permission: token.Admin
+  shop:
+    usage: /shop 
+    permission: token.Default
